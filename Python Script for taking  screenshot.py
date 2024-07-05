@@ -1,6 +1,6 @@
 from time import sleep
 import pyautogui
-#delay the screenshot time by 2 sec, so that you can go the desired page you want teh screenshot
+#delay the screenshot time by 2 sec, so that you can go the desired page you want the screenshot
 for i in range(5):
     sleep(2)
     myScreenshot = pyautogui.screenshot()
